@@ -1,0 +1,12 @@
+POST http://localhost:7575/api/links
+Content-Type: application/json
+{
+   "code": "wpps",
+   "url": "https://web.whatsapp.com/"
+}
+###
+GET http://localhost:7575/wpps
+###
+GET http://localhost:7575/api/links
+###
+GET http://localhost:7575/api/metrics
