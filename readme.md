@@ -8,3 +8,4 @@
 3. docker compose up -d
 4. npm run setup
 5. npm run dev
+6. To use the client.rest install the REST Client extension (vscode)
